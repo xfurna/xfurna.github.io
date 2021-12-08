@@ -1,0 +1,37 @@
+.menu{
+    flex:1;
+    display: block;
+    z-index: 100;
+    /* margin: 2rem; */
+    position: fixed;
+    /* bottom: 0; */
+}
+  .menu-close{
+    display: none;
+  }
+
+.menu .navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 15px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    box-shadow: #fff;
+}
+
+.navbar .page{
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 3rem;
+    color: #444a5f;
+    margin: auto;
+    letter-spacing: -1px;
+    font-size: 1.3rem;
+    transition: all .5s ease-in-out;
+}
+
+.menu .navbar .active{
+    color: rgb(236, 20, 20);
+}
+
