@@ -6,21 +6,8 @@ body {
 .App{
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   align-items: center;
   align-content: center;
   overflow: hidden;
 }
-/* 
-@keyframes flicker2{
-  0%{background: rgb(14, 0, 17);} 
-  3%{background: rgb(67, 2, 80);} 
-  6%{background: rgb(24, 0, 29);} 
-  9%{background: rgb(43, 1, 51);} 
-  10%{background: rgb(67, 2, 80);} 
-  20%{background: rgb(37, 1, 44);} 
-  50%{background: rgb(37, 1, 44);} 
-  80%{background: rgb(67, 2, 80);} 
-  90%{background: rgb(37, 1, 44);} 
-  100%{background: rgb(67, 2, 80);} 
-} */

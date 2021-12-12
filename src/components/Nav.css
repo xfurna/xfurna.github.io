@@ -1,21 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
-.menu{
-    flex:1;
-    display: block;
-    z-index: 100;
-    /* margin: 2rem; */
-    position: fixed;
-    /* bottom: 0; */
-}
 
-.menu .navbar{
+.navbar{
     display: flex;
+    position: sticky;
     flex-direction: row;
     padding-bottom: 30px;
     margin: 15px;
     overflow: hidden;
     backdrop-filter: blur(10px);
-    box-shadow: #fff;
 }
 
 .navbar .page{
@@ -34,6 +26,15 @@
     transition: all .5s ease-in-out;
 }
 
+.navbar .active{
+  color: #c163e6 !important;
+  text-shadow: 0 0px 30px #ffffff, 
+  0 0 35px #ffffff,
+  0 0 45px #ffffff,
+  0 0 55px #ffffff !important;
+  filter: blur(0px) brightness(5) !important; 
+}
+
 .navbar .page:hover{
   color: #731db9;
   text-shadow: 0 0px 20px #8816aa,
@@ -45,16 +46,7 @@
 
 }
 
-.menu .navbar .active{
-    color: #c163e6;
-    text-shadow: 0 0px 30px #ffffff,
-    0 0 35px #ffffff,
-    0 0 45px #ffffff,
-    0 0 55px #ffffff;
-    filter: blur(0.6px) brightness(5); 
-}
-
-.menu .navbar .xf-page{
+.navbar .xf-page{
     font-family: 'Beth Ellen', cursive;
 }
 
@@ -82,14 +74,11 @@
     font-size: 4.5vmin;
   }
 
-  .menu .navbar .active{
+  .navbar .active{
     text-shadow: 0 0px 35px #ffffff,
     0 0 40px #ffffff,
     0 0 45px #ffffff,
     0 0 55px #ffffff;
     filter: blur(0px) brightness(5); 
-}
-}
-.smenu{
-  display: none;
+  }
 }
