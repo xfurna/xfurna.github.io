@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Special+Elite&family=Tillana:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
 .heading {
     font-family: 'Beth Ellen';
     letter-spacing: 3px;
     color: #b82bbd;
-    font-size: 7vmin;
-    font-weight: normal;
+    font-size: 12vmin;
+    font-weight: lighter;
 }
 
 .heading::before{
@@ -35,25 +37,42 @@
     100%{filter: brightness(3);} 
   } 
 
-          
-.link-svgline a svg.link-svgline {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    overflow: hidden;
-    margin: 0;
-    width: 100%;
-    height: 20px; 
-    transition: stroke-dashoffset 0.3s ease-in-out;
-    transform: translateY(-90%);
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 5;
-    stroke-dasharray: 400px; 
-    stroke-dashoffset: 400px;
+  .project{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
   }
-  
-  .link-svgline a:hover svg.link-svgline {
-    stroke-dashoffset: 0px; 
+
+.project-head{
+  border: none;
+  border-radius: 430px 310px 525px 190px/95px 225px 115px 155px;
+  box-shadow: inset 0 0 55px #000, 0 0 35px #000000;
+  padding: 0;
+  margin: 3vmin;
+  font-family: 'Rock Salt', cursive;
+  font-size: 8vmin;
+  color: #c163e6;
+  text-shadow: 0 0px 30px #ffffff, 
+  0 0 35px #ffffff,
+  0 0 45px #ffffff,
+  0 0 55px #ffffff;
+  filter: blur(0px) brightness(5);
+}
+
+.project-outline{
+  margin: 3vmin;
+  max-width: 85vmin;
+  display: block;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 855px){
+  .project{
+    flex-direction: column;
   }
-      
+  .project-outline{
+    max-width: 94%;
+  }
+}
