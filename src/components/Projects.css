@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Special+Elite&family=Tillana:wght@500&display=swap');
+.heading {
+    font-family: 'Beth Ellen';
+    letter-spacing: 3px;
+    color: #b82bbd;
+    font-size: 7vmin;
+    font-weight: normal;
+}
+
+.heading::before{
+    content: attr(data-text);
+    text-shadow: 0 0 10px #53025e,
+    0 0 15px #731b8d,
+    0 0 20px #5c1658,
+    0 0 35px #350032;
+    filter: brightness(2); 
+    animation: flicker-schism 10s linear 0.5s infinite forwards;
+  }
+
+
+
+  @keyframes flicker-schism{
+    0%{filter: brightness(1);} 
+    3%{filter: brightness(2);} 
+    6%{filter: brightness(1);} 
+    9%{filter: brightness(2);} 
+    10%{filter: brightness(3);} 
+    20%{filter: brightness(2);} 
+    30%{filter: brightness(1);} 
+    40%{filter: brightness(2);} 
+    50%{filter: brightness(3);} 
+    60%{filter: brightness(1);} 
+    90%{filter: brightness(2);} 
+    100%{filter: brightness(3);} 
+  } 
+
+          
+.link-svgline a svg.link-svgline {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    height: 20px; 
+    transition: stroke-dashoffset 0.3s ease-in-out;
+    transform: translateY(-90%);
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 5;
+    stroke-dasharray: 400px; 
+    stroke-dashoffset: 400px;
+  }
+  
+  .link-svgline a:hover svg.link-svgline {
+    stroke-dashoffset: 0px; 
+  }
+      
