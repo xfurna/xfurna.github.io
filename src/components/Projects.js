@@ -6,89 +6,73 @@ const Projects = () => {
     return (
         <>
             <Nav />
-            <div className="heading" data-text='work'></div>
-            <div className='project'>
-                <div className='project-head'>RISysssnG</div>
-                <div className='project-outline'>
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />1
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
-                    this is project outline!!!<br />
+            <div style={{ margin: '15px' }}>
+                <div align='center' className="heading" data-text='work'></div>
+                <div className='card'>
+                    <div className='project'>
+                        <div className='project-head'>RISynG</div>
+                        <div className='project-outline'>
+                            <div className='role'>UNDERGRADUATE STUDENT RESEARCHER</div>
+                            <div className='affiliation affiliation'>IIT Jodhpur, Jan 2020 - Dec 2020</div><hr />
+                            <div className='duration'></div>
+                            <p><b>RISynG:</b> Recursively Integrated Synergised Graph-representations</p>
+                            <p>Developed a robust integrative clustering algorithm for cancer subtypes identification.</p>
+                            <p>Packaged the algorithm in hard-coded python with a wrapper shell script.</p>
+                            <p>Proactively participated in all the phases of research i.e., formulation of a testable hypothesis, data collection & pre processing, algorithm engineering, data analysis and manuscript writing.</p>
+                            <p><b>Impact:</b> Personalised therapeutics for cancer treatment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='project'>
+                        <div className='project-head'>RISynG</div>
+                        <div className='project-outline'>
+                            <div className='role'>UNDERGRADUATE STUDENT RESEARCHER</div>
+                            <div className='affiliation'></div>
+                            <div className='duration'></div>
+                            <div className='duration'></div>
+                            <p><b>RISynG:</b> Recursively Integrated Synergised Graph-representations</p>
+                            <p>Developed a robust integrative clustering algorithm for cancer subtypes identification.</p>
+                            <p>Packaged the algorithm in hard-coded python with a wrapper shell script.</p>
+                            <p>Proactively participated in all the phases of research i.e., formulation of a testable hypothesis, data collection & pre processing, algorithm engineering, data analysis and manuscript writing.</p>
+                            <p><b>Impact:</b> Personalised therapeutics for cancer treatment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div align='center' className="heading" data-text='बे-तरतीब' style={{ fontFamily: 'Tillana' }}></div>
+                <div className='card'>
+                    <div className='project'>
+                        <div className='project-head'>RISynG</div>
+                        <div className='project-outline'>
+                            <div className='role'>UNDERGRADUATE STUDENT RESEARCHER</div>
+                            <div className='affiliation'></div>
+                            <div className='duration'></div>
+                            <div className='duration'></div>
+                            <p><b>RISynG:</b> Recursively Integrated Synergised Graph-representations</p>
+                            <p>Developed a robust integrative clustering algorithm for cancer subtypes identification.</p>
+                            <p>Packaged the algorithm in hard-coded python with a wrapper shell script.</p>
+                            <p>Proactively participated in all the phases of research i.e., formulation of a testable hypothesis, data collection & pre processing, algorithm engineering, data analysis and manuscript writing.</p>
+                            <p><b>Impact:</b> Personalised therapeutics for cancer treatment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='card'>
+                    <div className='project'>
+                        <div className='project-head'>RISynG</div>
+                        <div className='project-outline'>
+                            <div className='role'>UNDERGRADUATE STUDENT RESEARCHER</div>
+                            <div className='affiliation'></div>
+                            <div className='duration'></div>
+                            <div className='duration'></div>
+                            <p><b>RISynG:</b> Recursively Integrated Synergised Graph-representations</p>
+                            <p>Developed a robust integrative clustering algorithm for cancer subtypes identification.</p>
+                            <p>Packaged the algorithm in hard-coded python with a wrapper shell script.</p>
+                            <p>Proactively participated in all the phases of research i.e., formulation of a testable hypothesis, data collection & pre processing, algorithm engineering, data analysis and manuscript writing.</p>
+                            <p><b>Impact:</b> Personalised therapeutics for cancer treatment.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <hr />
-
-            <div className='project'>
-                <div className='project-head'>RISynG</div>
-                <div className='project-outline'>
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                </div>
-            </div>
-
-            <hr />
-
-            <div className='project'>
-                <div className='project-head'>RISynG</div>
-                <div className='project-outline'>
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                </div>
-            </div>
-
-            <hr />
-
-            <div className='project'>
-                <div className='project-head'>RISynG</div>
-                <div className='project-outline'>
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                    this is project outline!!!
-                </div>
-            </div>
-            <div className="heading" data-text='बे-तरतीब' style={{ fontFamily: 'Tillana' }}></div>
         </>
     );
 }

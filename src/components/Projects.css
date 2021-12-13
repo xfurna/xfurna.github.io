@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Special+Elite&family=Tillana:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Special+Elite&family=Tillana:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+hr{
+  box-shadow: inset 0px 0px 15px #8a00f1, 0px 0px 5px #ff0000, 0px 0px 10px #e400ff;
+}
 
 .heading {
     font-family: 'Beth Ellen';
-    letter-spacing: 3px;
+    letter-spacing: 0.3vmin;
     color: #b82bbd;
     font-size: 12vmin;
+    padding-top: 9vmin;
     font-weight: lighter;
 }
 
@@ -42,8 +48,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 15px 10px 10px 10px;
   }
+
+
 
 .project-head{
   border: none;
@@ -52,27 +60,46 @@
   padding: 0;
   margin: 3vmin;
   font-family: 'Rock Salt', cursive;
-  font-size: 8vmin;
+  font-size: 10vmin;
   color: #c163e6;
-  text-shadow: 0 0px 30px #ffffff, 
-  0 0 35px #ffffff,
-  0 0 45px #ffffff,
-  0 0 55px #ffffff;
+  text-shadow: 0 0 3vmin #ffffff, 
+  0 0 4vmin #001aff, 
+  0 0 5vmin #ff00f2, 
+  0 0 6vmin #ff0000;
   filter: blur(0px) brightness(5);
 }
 
 .project-outline{
-  margin: 3vmin;
-  max-width: 85vmin;
+  margin: 4vmin;
+  max-width: 95vmin;
   display: block;
-  color: #ffffff;
+  font-family: 'Recursive', sans-serif;
 }
 
-@media only screen and (max-width: 855px){
+p{
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: -1.2vmin;
+  color: #d5d5d5;
+}
+
+.role{
+  font-weight: 800;
+  color: #ff43aa;
+  letter-spacing: 3px;
+}
+
+.affiliation, .duration{
+  font-weight: 500;
+  color: #ff43aa9e;
+}
+
+@media only screen and (max-width: 910px){
   .project{
     flex-direction: column;
   }
   .project-outline{
-    max-width: 94%;
+    max-width: 96%;
   }
 }
+

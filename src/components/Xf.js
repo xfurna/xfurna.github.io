@@ -2,7 +2,7 @@ import React from 'react';
 import './Xf.css';
 const Xf = () => {
     return (
-        <div className="xf" data-text="xfurna">xfurna</div>
+        <div align='center' className="xf" data-text="xfurna">xfurna</div>
     );
 }
 

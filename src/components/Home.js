@@ -6,8 +6,6 @@ import './Home.css'
 
 const Home = () => {
 
-    // const [click, setClick] = useState(false);
-    // const handleClick = () => setClick(!click);
     return (
         <>
             <Nav />
