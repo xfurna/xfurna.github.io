@@ -15,7 +15,7 @@
     border-radius: 15px;
     border-color: #c163e6;
     backdrop-filter: blur(60px);
-    box-shadow: 0 10px 30px #000000;
+    box-shadow: 0 10px 30px #120111;
 }
 
 .navbar .page{
@@ -23,6 +23,7 @@
     align-items: center;
     text-decoration: none;
     padding: 0 7vmin;
+    padding-bottom: 10px;
     color: #653a69;
     text-shadow: 0 0px 2vmin #794672,
     0 0px 2vmin #794672;
@@ -73,6 +74,7 @@
 @media only screen and (max-width: 624px){
   .navbar .page{
     padding: 0vmin 6vmin;
+    padding-bottom: 7px;
     color: #653a69;
     text-shadow: 0 0px 1.5vmin #794672,
     0 0px 2vmin #794672;

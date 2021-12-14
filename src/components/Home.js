@@ -9,7 +9,9 @@ const Home = () => {
     return (
         <>
             <Nav />
-            <Xf />
+            <div style={{ height: '101vmin' }}>
+                <Xf />
+            </div>
         </>
     );
 
