@@ -76,22 +76,46 @@ hr{
   0 0 5vmin #ff0000;
   filter: blur(0px) brightness(5);
 }
+.project-head .buttons svg{
+  display: block;
+  margin: auto;
+  stroke-linecap: butt;
+  stroke-linejoin: bevel;
+  stroke-width: 1;
+  stroke: #ff91ec;
+  fill: none;
+filter: drop-shadow(0px 0px 4px #ff00f2);
+}
 
 .project-head .buttons {
-  font-family: 'Recursive', sans-serif;
-  color: #e9c6e4;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   border-radius: 7px;
   background-color: rgb(75 33 92);
-  font-size: 2.4vmin;
   padding: 6px 15px;
   margin: 0 2.5vmin;
-  letter-spacing: -10px;
-
-  transition: all 0.3s ease-in;
+  font-family: 'Recursive', sans-serif;
+  font-size: 2.4vmin;
+  color: #e9c6e4;
 }
-.project-head .buttons:hover {
-  /* padding: 6px 10px; */
-  letter-spacing: 2px;
+
+.project-head .buttons .text{
+  width: 0;
+  opacity: 0;
+  /* transform: translateX(-20px); */
+  transition: all 0.5s ease-in;
+
+}
+
+
+.project-head .buttons:hover > .text {
+  width: 100%;
+  opacity: 1;
+  margin-left: 5px;
+  /* transform: translateX(0px); */
   text-shadow: 0 0 2px #fff6ff, 0 0 10px #c50dd1, 0 0 10px #e18edd;
 }
 .project-outline{
