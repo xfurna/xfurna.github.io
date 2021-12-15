@@ -70,7 +70,7 @@ hr{
   font-family: 'Rock Salt', cursive;
   font-size: 10vmin;
   color: #c163e6;
-  text-shadow: 0 0 2vmin #ffffff,
+  text-shadow: 0 0 2.5vmin #ffffff,
   0 0 4vmin #001aff,
   0 0 1vmin #ff00f2,
   0 0 5vmin #ff0000;
@@ -79,45 +79,47 @@ hr{
 .project-head .buttons svg{
   display: block;
   margin: auto;
+  margin-bottom: 5px;
   stroke-linecap: butt;
   stroke-linejoin: bevel;
   stroke-width: 1;
   stroke: #ff91ec;
   fill: none;
-filter: drop-shadow(0px 0px 4px #ff00f2);
+  filter: drop-shadow(0px 0px 3px #fff);
 }
 
 .project-head .buttons {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  border-radius: 7px;
-  background-color: rgb(75 33 92);
-  padding: 6px 15px;
+  border-radius: 100%;
+  padding: 15px;
   margin: 0 2.5vmin;
+
+}
+
+.project-head a {
+  text-decoration: none;
   font-family: 'Recursive', sans-serif;
-  font-size: 2.4vmin;
+  font-size: 17px;
   color: #e9c6e4;
+  text-shadow: 0 0 20px #ffffff,
+  0 0 30px #ffffff;
 }
 
-.project-head .buttons .text{
-  width: 0;
-  opacity: 0;
-  /* transform: translateX(-20px); */
-  transition: all 0.5s ease-in;
-
+.project-head .buttons::after {
+  content: attr(content);
+  padding-top: 15px;
+  transition: 0.3s ease-in;
 }
 
 
-.project-head .buttons:hover > .text {
-  width: 100%;
-  opacity: 1;
-  margin-left: 5px;
-  /* transform: translateX(0px); */
-  text-shadow: 0 0 2px #fff6ff, 0 0 10px #c50dd1, 0 0 10px #e18edd;
+
+.project-head .buttons:hover {
+  text-shadow: 0 0 20px #ffffff,
+  0 0 25px #c300ff,
+  0 0 30px #ff00f2,
+  0 0 40px #9900ff;
 }
+
+
 .project-outline{
   margin: 4vmin;
   max-width: 65vmin;
