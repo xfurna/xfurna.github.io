@@ -1,5 +1,7 @@
 import React from 'react';
 
+
+export const presently = (<p><span className='glow'>SDE intern</span> at <span className='glow'>UnDosTres</span></p>);
 export const projects = [
     {
         id: 1,
@@ -30,17 +32,8 @@ export const projects = [
     {
         id: 2,
         head: (<><p>Agro</p> <p>GWAS</p></>),
-        buttons: [
-            {
-                href: 'none',
-                to: '/e1ixir',
-                content: '',
-                svg: 'e1ixir'
-            }
-
-        ],
         role: 'UNDERGRADUATE STUDENT RESEARCHER',
-        affiliation: 'IIT Jodhpur, Jan 2020 - Dec 2020',
+        affiliation: 'IIT Jodhpur, May 20201 - November 2021',
         description: (
             <>
                 <p><span className='glow'>RISynG:</span> Recursively Integrated Synergised Graph-representations</p>
@@ -50,7 +43,22 @@ export const projects = [
                 <p><span className='glow'>Impact:</span> Personalised therapeutics for cancer treatment.</p>
             </>
         ),
-        tag: 'IEEE BIBM \'21'
+        tag: 'none',
+        buttons: [
+            {
+                href: 'none',
+                to: '/e1ixir',
+                content: '',
+                svg: 'e1ixir'
+            },
+            {
+                href: 'https://github.com/xfurna/AgroGWAS/',
+                to: 'none',
+                content: 'GitHub',
+                svg: 'github'
+            }
+
+        ],
     }
 ];
 

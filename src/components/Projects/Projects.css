@@ -26,7 +26,20 @@ hr{
     animation: flicker-schism 10s linear 0.5s infinite forwards;
   }
 
+  .presently {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Recursive', sans-serif;
+    color: #e9c6e4;
+  }
 
+  .presently-head{
+    color: #8443ff;
+    font-size: 3.5vmin;
+  }
 
   @keyframes flicker-schism{
     0%{filter: brightness(1);} 
@@ -50,8 +63,6 @@ hr{
     align-items: center;
     margin: 15px 10px 10px 10px;
   }
-
-
 
 .project-head{
   display: flex;
@@ -88,6 +99,7 @@ hr{
   max-width: 65vmin;
   display: block;
   font-family: 'Recursive', sans-serif;
+  font-size: 20px;
 }
 
 .project-outline p{
@@ -112,7 +124,7 @@ hr{
 .betarteeb {
   font-weight: 600;
   color: #ff91ec;
-  font-size: 28px;
+  font-size: 4vmin;
 }
 
 .glow {
@@ -140,7 +152,12 @@ hr{
     text-align: left !important;
     max-width: 96% !important;
   }
-
+  .presently{
+    font-size: 18px;
+  }
+  .betarteeb{
+    font-size: 5vmin;
+  }
 }
 
 /******************************/
