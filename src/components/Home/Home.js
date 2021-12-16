@@ -1,6 +1,6 @@
 import React from 'react'
-import Xf from './Xf';
-import Nav from './Nav';
+import Xf from '../Xf/Xf';
+import Nav from '../Nav/Nav';
 import './Home.css'
 
 

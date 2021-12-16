@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
-import E1ixir from './components/E1ixir'
-import Projects from './components/Projects'
+import Home from './components/Home/Home'
+import About from './components/About/About'
+import E1ixir from './components/E1ixir/E1ixir'
+import Projects from './components/Projects/Projects'
 
 function App() {
   return (
