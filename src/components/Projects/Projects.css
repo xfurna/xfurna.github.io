@@ -18,10 +18,10 @@ hr{
 
 .heading::before{
     content: attr(data-text);
-    text-shadow: 0 0 10px #53025e,
-    0 0 15px #731b8d,
-    0 0 20px #5c1658,
-    0 0 35px #350032;
+    text-shadow: 0 0 1vmin #53025e,
+    0 0 1.5vmin #731b8d,
+    0 0 2vmin #5c1658,
+    0 0 3.5vmin #350032;
     filter: brightness(2); 
     animation: flicker-schism 10s linear 0.5s infinite forwards;
   }
@@ -75,7 +75,7 @@ hr{
 .project-head .head{
   border: none;
   border-radius: 430px 310px 525px 190px/95px 225px 115px 155px;
-  box-shadow: inset 0 0 55px #000, 0 0 35px #000000;
+  box-shadow: inset 0 0 5.5vmin #000, 0 0 3.5vmin #000000;
   padding: 0;
   margin: 3vmin;
   font-family: 'Rock Salt', cursive;
@@ -86,7 +86,7 @@ hr{
   0 0 1vmin #ff00f2,
   0 0 5vmin #ff0000;
   filter: blur(0px) brightness(5);
-  letter-spacing: -5px;
+  letter-spacing: -0.5vmin;
 }
 
 .project-head .head p{
@@ -106,7 +106,7 @@ hr{
   font-size: 18px;
   line-height: 25px;
   margin-bottom: -1.2vmin;
-  color: #e9c6e4;
+  color: #ffffffb5;
 }
 
 .role{
@@ -180,7 +180,7 @@ hr{
 
 }
 
-a {
+#project-icon-bar a {
   text-decoration: none;
   font-family: 'Recursive', sans-serif;
   font-size: 17px;

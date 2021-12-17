@@ -19,25 +19,25 @@
   .xf::before{
     position: absolute;
     content: attr(data-text);
-    text-shadow: 0 0 10px #53025e,
-    0 0 30px #731b8d,
-    0 0 40px #5c1658,
-    0 0 50px #350032;
-    filter: blur(1px) brightness(2); 
+    text-shadow: 0 0 1vmin #53025e,
+    0 0 3vmin #731b8d,
+    0 0 4vmin #5c1658,
+    0 0 5vmin #350032;
+    filter: blur(0.1vmin) brightness(2); 
     animation: flicker 10s linear 0.5s infinite forwards;
   }
   
   @keyframes flicker{
-    0%{filter: blur(1px) brightness(1);} 
-    3%{filter: blur(1px) brightness(2);} 
-    6%{filter: blur(1px) brightness(1);} 
-    9%{filter: blur(1px) brightness(2);} 
+    0%{filter: blur(0.1vmin) brightness(1);} 
+    3%{filter: blur(0.1vmin) brightness(2);} 
+    6%{filter: blur(0.1vmin) brightness(1);} 
+    9%{filter: blur(0.1vmin) brightness(2);} 
     10%{filter: blur(0px) brightness(3);} 
-    20%{filter: blur(1px) brightness(2);} 
-    30%{filter: blur(1px) brightness(1);} 
-    40%{filter: blur(1px) brightness(2);} 
+    20%{filter: blur(0.1vmin) brightness(2);} 
+    30%{filter: blur(0.1vmin) brightness(1);} 
+    40%{filter: blur(0.1vmin) brightness(2);} 
     50%{filter: blur(0px) brightness(3);} 
-    60%{filter: blur(1px) brightness(1);} 
-    90%{filter: blur(1px) brightness(2);} 
+    60%{filter: blur(0.1vmin) brightness(1);} 
+    90%{filter: blur(0.1vmin) brightness(2);} 
     100%{filter: blur(0px) brightness(4);} 
   } 

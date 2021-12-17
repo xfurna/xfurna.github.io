@@ -29,13 +29,15 @@ hr{
     justify-content: center;
 }
 
-img{
+.about img{
+  width: 40%;
     border-radius: 10px;
+    margin: 2.8vmin;
     border: none;
     transition: all 1s ease-in;
     box-shadow: 0.5vmin 0px 1.5vmin #8711cc;
 }
-img:hover{
+.about img:hover{
   box-shadow: 1vmin 0px 0.5vmin #9b18cf,
   2vmin 0px 1.5vmin #b946b0,
   4vmin 0px 3.5vmin #f10e8b;
@@ -47,18 +49,35 @@ img:hover{
   margin: 4vmin;
   max-width: 100vmin;
   display: block;
-
+  text-align: justify;
   margin-bottom: -1.2vmin;
 }
 .bio p{
-  color: #e9c6e4;
+  color: #ffffffb5;
   font-family: 'Recursive', sans-serif;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.bio a{
+  color: #ff6dd1;
+  text-decoration: none;
+  text-shadow: 0 0 15px #ff7979, 0 0 25px #ff34d5;
+}
+
+.bio a:hover {
+  color: #ffffffc5;
+  filter: brightness(3);  
 }
 
 @media only screen and (max-width: 1244px){
   .bio{
     max-width: 96%;
+    text-align: left;
+  }
+  .about img{
+    margin: 1vmin;
+    width: 37%;
   }
 }
