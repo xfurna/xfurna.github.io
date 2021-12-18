@@ -71,10 +71,35 @@ hr{
   filter: brightness(3);  
 }
 
+.contactme {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactme a{
+  text-decoration: none;
+  font-family: 'Recursive', sans-serif;
+  font-size: 2vmin;
+  width: 2vmin;
+  color: #e9c6e4;
+  text-shadow: 0 0 20px #ffffff,
+  0 0 30px #ffffff;
+  text-align: center;
+}
+
+.contactme .buttons{
+  margin: 0 0.6vmin;
+}
 @media only screen and (max-width: 1244px){
   .bio{
-    max-width: 96%;
+    max-width: 97%;
     text-align: left;
+  }
+
+  .bio p{
+    font-size: 18px;
   }
   .about img{
     margin: 1vmin;

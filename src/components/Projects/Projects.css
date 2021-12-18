@@ -165,13 +165,8 @@ hr{
   display: block;
   margin: auto;
   margin-bottom: 5px;
-  stroke-linecap: butt;
-  stroke-linejoin: bevel;
-  stroke-width: 1;
-  fill: none;
   filter: drop-shadow(0px 0px 3px #fff);
   transition: all 0.3s ease-in;
-
 }
 
 .buttons {

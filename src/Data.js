@@ -62,3 +62,10 @@ export const projects = [
     }
 ];
 
+export const contactme = {
+    github: 'https://github.com/xfurna',
+    telegram: 'https://t.me/xfurna',
+    email: 'mailto:dwivedi.2@iitj.ac.in',
+    twitter: 'https://twitter.com/xfurna/',
+    linkedin: 'https://www.linkedin.com/in/archit-dwivedi-7218b5162/'
+};
