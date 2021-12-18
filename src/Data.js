@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export const presently = (<p><span className='glow'>SDE intern</span> at <span className='glow'>UnDosTres</span></p>);
+export const presently = (<p><span className='glow'>SDE intern</span> at <span className='glow'>UnDosTres</span>, Mexico City</p>);
 export const projects = [
     {
         id: 1,
@@ -19,10 +19,10 @@ export const projects = [
         affiliation: 'IIT Jodhpur, Jan 2020 - Dec 2020',
         description: (
             <>
-                <p><span className='glow'>RISynG:</span> Recursively Integrated Synergised Graph-representations</p>
-                <p>Developed a robust <span className='glow'>integrative clustering algorithm</span> for cancer subtypes identification.</p>
-                <p>Packaged the algorithm in <span className='glow'>hard-coded python</span> with a wrapper shell script.</p>
-                <p>Proactively participated in all the phases of research i.e., <span className='glow'>formulation of a testable hypothesis, data collection & pre processing, algorithm engineering, data analysis and manuscript writing</span>.</p>
+                <p><span className='glow'>RISynG:</span> <span className='glow'>R</span>ecursively <span className='glow'>I</span>ntegrated <span className='glow'>Syn</span>ergised <span className='glow'>G</span>raph-representations</p>
+                <p>Developed a robust (both complexity-wise and accuracy-wise) <span className='glow'>integrative clustering algorithm</span> for multi-view omics data that outperformed the conventional methods of integrative clustering.</p>
+                <p>Written a quality <span className='glow'>object-oriented python code</span> to package the algorithm into an easy-to-use <span className='glow'>command-line interface app</span>.</p>
+                <p>Proactively participated in all the phases of research; Principally drove the <span className='glow'>formulation of a testable hypothesis, algorithm engineering, data analysis</span> and <span className='glow'>manuscript writing</span>.</p>
                 <p><span className='glow'>Impact:</span> Personalised therapeutics for cancer treatment.</p>
             </>
         ),
@@ -36,11 +36,12 @@ export const projects = [
         affiliation: 'IIT Jodhpur, May 20201 - November 2021',
         description: (
             <>
-                <p><span className='glow'>RISynG:</span> Recursively Integrated Synergised Graph-representations</p>
-                <p>Developed a robust <span className='glow'>integrative clustering algorithm</span> for cancer subtypes identification.</p>
-                <p>Packaged the algorithm in <span className='glow'>hard-coded python</span> with a wrapper shell script.</p>
-                <p>Proactively participated in all the phases of research i.e., <span className='glow'>formulation of a testable hypothesis, data collection & pre processing, algorithm engineering, data analysis and manuscript writing</span>.</p>
-                <p><span className='glow'>Impact:</span> Personalised therapeutics for cancer treatment.</p>
+                <p><span className='glow'>AgroGWAS:</span> GWAS (Genome-Wide Association Studies) for agronomics.</p>
+                <p>Implemented a <span className='glow'>residual neural network</span> for the determination of SNP effect-size of Soybean NAM population.</p>
+                <p>Conducted a comparative analysis on the SoyNAM dataset thereby <span className='glow'>challenging the conventional statistical methods</span> of GWAS for their inadequacy in the case of complex traits.</p>
+                <p>Model created on <span className='glow'>Keras</span> with <span className='glow'>TensorFlow</span>.</p>
+                <p>Model trained on <a href='https://images.nvidia.com/content/technologies/volta/pdf/tesla-volta-v100-datasheet-letter-fnl-web.pdf' rel='noopener noreferrer' target='_blank'>Tesla V100-PCIE-32GB GPU</a>.</p>
+                <p><span className='glow'>Impact:</span> Decoding the complex traits/diseases hence facilitating the clinical risk prognosis.</p>
             </>
         ),
         tag: 'none',
