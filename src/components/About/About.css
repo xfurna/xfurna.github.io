@@ -60,13 +60,13 @@ hr{
   letter-spacing: 1px;
 }
 
-.bio a{
+p a{
   color: #ff6dd1;
   text-decoration: none;
   text-shadow: 0 0 15px #ff7979, 0 0 25px #ff34d5;
 }
 
-.bio a:hover {
+p a:hover {
   color: #ffffffc5;
   filter: brightness(3);  
 }

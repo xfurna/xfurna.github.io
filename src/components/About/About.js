@@ -20,7 +20,7 @@ const Bio = () => {
             <p>If you would like to roll around in the dirt with me or just argue about whether or not Shakespeare really wrote Shakespeare's plays, don’t hesitate to contact me.</p>
             <p>With a smile,</p>
             <hr />
-            <div className='glow' align='center' style={{ color: '#ffffffb5', fontSize: '3vmin', fontFamily: 'Beth Ellen' }}>xf</div>
+            <div className='glow' align='center' style={{ color: '#ffffffb5', fontSize: '24px', fontFamily: 'Beth Ellen' }}>xf</div>
             <hr />
 
         </div>
@@ -61,7 +61,7 @@ const Contact = () => {
                 </a>
             </div>
             <div>
-                <a href={contactme.email} rel='noopener noreferrer' target='_blank'>
+                <a href={contactme.linkedin} rel='noopener noreferrer' target='_blank'>
                     <div className='buttons' content='Linkedin'>
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="#ff91ec" stroke="none" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" /></svg>
                     </div>
