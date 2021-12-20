@@ -1,0 +1,108 @@
+hr{
+    box-shadow: inset 0px 0px 15px #8a00f1, 0px 0px 5px #ff0000, 0px 0px 10px #e400ff;
+  }
+  
+.about-head {
+  font-family: 'Beth Ellen';
+  letter-spacing: 0.3vmin;
+  color: #b82bbd;
+  font-size: 5vmin;
+  padding-top: 9vmin;
+  font-weight: lighter;
+}
+
+.about-head::before{
+  content: attr(data-text);
+  text-shadow: 0 0 10px #53025e,
+  0 0 15px #731b8d,
+  0 0 20px #5c1658,
+  0 0 35px #350032;
+  filter: brightness(2); 
+  animation: flicker-schism 10s linear 0.5s infinite forwards;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.about img{
+  width: 40%;
+    border-radius: 10px;
+    margin: 2.8vmin;
+    border: none;
+    transition: all 1s ease-in;
+    box-shadow: 0.5vmin 0px 1.5vmin #8711cc;
+}
+.about img:hover{
+  box-shadow: 1vmin 0px 0.5vmin #9b18cf,
+  2vmin 0px 1.5vmin #b946b0,
+  4vmin 0px 3.5vmin #f10e8b;
+  transform: translateX(-5%);
+  transition-duration: 1s;
+}
+
+.bio{
+  margin: 4vmin;
+  max-width: 100vmin;
+  display: block;
+  text-align: justify;
+  margin-bottom: -1.2vmin;
+}
+.bio p{
+  color: #ffffffb5;
+  font-family: 'Recursive', sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+p a{
+  color: #ff6dd1;
+  text-decoration: none;
+  text-shadow: 0 0 15px #ff7979, 0 0 25px #ff34d5;
+}
+
+p a:hover {
+  color: #ffffffc5;
+  filter: brightness(3);  
+}
+
+.contactme {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactme a{
+  text-decoration: none;
+  font-family: 'Recursive', sans-serif;
+  font-size: 2vmin;
+  width: 2vmin;
+  color: #e9c6e4;
+  text-shadow: 0 0 20px #ffffff,
+  0 0 30px #ffffff;
+  text-align: center;
+}
+
+.contactme .buttons{
+  margin: 0 0.6vmin;
+}
+@media only screen and (max-width: 1244px){
+  .bio{
+    max-width: 97%;
+    text-align: left;
+  }
+
+  .bio p{
+    font-size: 18px;
+  }
+  .about img{
+    margin: 1vmin;
+    width: 37%;
+  }
+}
