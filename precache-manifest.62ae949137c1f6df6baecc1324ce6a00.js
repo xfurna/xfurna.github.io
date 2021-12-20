@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/xf/static/media/me2.3d86e678.jpeg"
   },
   {
-    "revision": "eb59e1b3cd9e884c0887a744850fcaaa",
+    "revision": "a23030cf2c96bfe44223fc4602a3f3b7",
     "url": "/xf/index.html"
   }
 ];
