@@ -1,18 +1,70 @@
-# xfurna
-### A subtle machinery of awe...
-Hi! I’m xfurna. You can call me xf.
+# Getting Started with Create React App
 
-I am also known as Archit. I don’t use it all the time, but the fact is, I am.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Currently, I am an undergrad senior at IIT Jodhpur. I was highly fascinated by programming right from the start when I was first introduced to it in school. Initially, I used to fool around exploring things like web development, automation, CLI app development, scripting, etc. Then in my 4th semester, I joined the Computational Biology lab as an Undergraduate Student Researcher under the guidance of Dr Sushmita Paul. There I got the taste of ML/DL for the very first time. And I was hooked! Now I have around two years of experience working there. During this time have investigated & developed various ML/DL algorithms and done statistical analyses on biological data. My research work has resulted in two publications in a reputed peer-reviewed journal and a highly competitive international conference respectively. I have only a few projects worth of experience in AI/ML, but the flip side of my inexperience tends to be energy, enthusiasm, and a willingness to work and hustle to learn.
+## Available Scripts
 
-I am a firm believer and practitioner of the first principle of thinking. I perceive the world in accordance with its function rather than its form. This mindset helps me to have a clear understanding of the things which, I believe, is a great step in the direction of the ideology of learning for mastery.
+In the project directory, you can run:
 
-On best days, you’ll catch me reading books, research papers, doing math meditation, listening to podcasts, tweeting, pushing pixels or petting some or the other of my pet projects (boy, they're many). I can also be found walking/cycling distances while in the 'estado-de-resonancia' with the melodies of Led Zeppelin and Deep Purple or the heavy/death metal of Opeth, S.O.A.D and Porcupine Tree (even Obituary, at times); Because only ideas won by walking have any worth.
+### `npm start`
 
-I'm usually a man of few words in person. Nonetheless, hang out with me for an hour or two, only to find yourself in the extreme depths of the philosophical discourse on sheer existence of things!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-If you would like to roll around in the dirt with me or just argue about whether or not Shakespeare really wrote Shakespeare's plays, don’t hesitate to contact me.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-With a smile,
-~ xf
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

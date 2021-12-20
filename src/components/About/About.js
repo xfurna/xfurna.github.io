@@ -72,6 +72,7 @@ const Contact = () => {
 };
 
 const About = () => {
+    document.title = "About"
     return (
         <>
             <Nav />

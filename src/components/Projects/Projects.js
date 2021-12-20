@@ -110,7 +110,8 @@ const RenderBetarteeb = (props) => {
 };
 
 const Projects = () => {
-    return (
+        document.title = "Projects"
+        return (
         <>
             <Nav />
             <div style={{ margin: '15px' }}>

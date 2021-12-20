@@ -3,6 +3,7 @@ import Nav from '../Nav/Nav';
 import './E1ixir.css'
 
 const E1ixir = () => {
+    document.title = "e1ixir"
     return (
         <>
             <Nav />

@@ -5,7 +5,7 @@ import './Home.css'
 
 
 const Home = () => {
-
+    document.title = "Home"
     return (
         <>
             <Nav />
