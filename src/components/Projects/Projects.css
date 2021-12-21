@@ -80,13 +80,14 @@ hr{
   margin: 3vmin;
   font-family: 'Rock Salt', cursive;
   font-size: 10vmin;
-  color: #c163e6;
+  color: #505050;
   text-shadow: 0 0 2.5vmin #ffffff,
   0 0 4vmin #001aff,
   0 0 1vmin #ff00f2,
   0 0 5vmin #ff0000;
-  filter: blur(0px) brightness(5);
+  filter: blur(0px) brightness(3);
   letter-spacing: -0.5vmin;
+  opacity: 0.9;
 }
 
 .project-head .head p{

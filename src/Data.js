@@ -60,24 +60,6 @@ export const projects = [
 export const betarteeb = [
     {
         id: 1,
-        main_head: (<><p>this</p><p>site</p></>),
-        buttons: [
-
-        ],
-        head: "Neon Parchment",
-        description: (
-            <>
-                <p>There's nothing more in life that I enjoy than renovating my <span className='glow'>personal website</span> every some-time.</p>
-                <p>So here I am with another <span className='glow'>seductive</span> website I call- <span className='glow'>Neon Parchment</span>. Suits the name, isn’t it?</p>
-                <p>Apart from <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>xf</span>- the home page, and <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>about</span>- the about page, it has:</p>
-                <p>1. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>schism</span>- that curates some of my major projects from work and otherwise. The heading <span className='glow' style={{ fontFamily: 'Tillana' }}>‘बे-तरतीब’</span> (tarnslation: unorganised/random) is an inside joke. Don’t bother.</p>
-                <p>2. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>e1ixir</span>- which is my blog where I’d pour my thoughts out. It’s still a work in progress. </p>
-
-            </>
-        ),
-    },
-    {
-        id: 2,
         main_head: (<><p>ZMS</p><p>~AI~</p></>),
         buttons: [
             {
@@ -109,7 +91,7 @@ export const betarteeb = [
         ),
     },
     {
-        id: 3,
+        id: 2,
         main_head: (<><p>CoALa</p><p>~py~</p></>),
         buttons: [
             {
@@ -133,7 +115,7 @@ export const betarteeb = [
         ),
     },
     {
-        id: 4,
+        id: 3,
         main_head: 'CoVup',
         buttons: [
             {
@@ -156,7 +138,7 @@ export const betarteeb = [
         ),
     },
     {
-        id: 5,
+        id: 4,
         main_head: 'Bio1ixir',
         buttons: [
             {
