@@ -22,7 +22,7 @@ const E1ixir = () => {
                 <p>There's nothing more in life that I enjoy than renovating my <span className='glow'>personal website</span> every some-time.</p>
                 <p>So here I am with another <span className='glow'>seductive</span> website I call- <span className='glow'>Neon Parchment</span>. Suits the name, doesn’t it?</p>
                 <p>Apart from <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>xf:</span> the home page, and <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>about:</span> the about page, it has:</p>
-                <p>1. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>schism:</span> that curates some of my major projects from work and otherwise. The heading <span className='glow' style={{ fontFamily: 'Tillana' }}>‘बे-तरतीब’</span> (tarnslation: unorganised/random) is an inside joke. Don’t bother.</p>
+                <p>1. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>schism:</span> that curates some of my major projects from work and otherwise. The heading <span className='glow' style={{ fontFamily: 'Tillana' }}>‘बे-तरतीब’</span> (translation: unorganised/random) is an inside joke. Don’t bother.</p>
                 <p>2. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>e1ixir:</span> which is my blog where I’d pour my thoughts out. It’s still a work in progress. </p>
                 <p><span slign='center' className='glow'>*Powered by ReactJS</span></p>
 
