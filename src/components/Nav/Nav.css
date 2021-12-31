@@ -14,7 +14,7 @@
     overflow: hidden;
     border-radius: 2.5vmin;
     border-color: #c163e6;
-    backdrop-filter: blur(60px);
+    backdrop-filter: blur(100px);
     box-shadow: 0 1.2vmin 3.1vmin #120111;
 }
 

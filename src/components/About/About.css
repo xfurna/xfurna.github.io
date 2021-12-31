@@ -38,9 +38,9 @@ hr{
     box-shadow: 0.5vmin 0px 1.5vmin #8711cc;
 }
 .about img:hover{
-  box-shadow: 1vmin 0px 0.5vmin #cc364f,
-  2vmin 0px 1.5vmin #b9465f,
-  4vmin 0px 3.5vmin #910f75;
+  box-shadow: 1vmin 0px 0.5vmin #cc3663,
+  2vmin 0px 1.5vmin #b9467c,
+  4vmin 0px 3.5vmin #910f86;
   transform: translateX(-5%);
   transition-duration: 1s;
 }

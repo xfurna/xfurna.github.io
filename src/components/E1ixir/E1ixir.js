@@ -25,7 +25,9 @@ const E1ixir = () => {
                 <p>1. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>schism:</span> that curates some of my major projects from work and otherwise. The heading <span className='glow' style={{ fontFamily: 'Tillana' }}>‘बे-तरतीब’</span> (translation: unorganised/random) is an inside joke. Don’t bother.</p>
                 <p>2. <span className='glow' style={{ fontFamily: 'Beth Ellen' }}>e1ixir:</span> which is my blog where I’d pour my thoughts out. It’s still a work in progress. </p>
                 <p><span slign='center' className='glow'>*Powered by ReactJS</span></p>
-
+                <hr />
+                <div className='glow' align='center' style={{ color: '#ffffffb5', fontSize: '24px', fontFamily: 'Beth Ellen' }}>xf</div>
+                <hr />
             </div>
         </>
     );

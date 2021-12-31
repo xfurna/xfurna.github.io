@@ -128,7 +128,9 @@ const Projects = () => {
                 {betarteeb.map((project, i) => (
                     <RenderBetarteeb key={i} {...project} />
                 ))}
-                <hr />
+                            <hr />
+            <div className='glow' align='center' style={{ color: '#ffffffb5', fontSize: '24px', fontFamily: 'Beth Ellen' }}>xf</div>
+            <hr />
 
             </div>
         </>
