@@ -8,6 +8,11 @@ export const projects = [
         head: 'RISynG',
         buttons: [
             {
+                href: 'https://ieeexplore.ieee.org/document/9669481',
+                content: 'Publication',
+                svg: 'publication'
+            },
+            {
                 to: '/e1ixir',
                 svg: 'e1ixir'
             }
@@ -24,7 +29,7 @@ export const projects = [
                 <p><span className='glow'>Impact:</span> Personalised therapeutics for cancer treatment.</p>
             </>
         ),
-        tag: 'IEEE BIBM \'21'
+        tag: '3rd ICGA\'22 Winner'
     },
 
     {
@@ -173,6 +178,6 @@ export const contactme = {
     telegram: 'https://t.me/xfurna',
     email: 'mailto:dwivedi.2@iitj.ac.in',
     twitter: 'https://twitter.com/xfurna/',
-    linkedin: 'https://www.linkedin.com/in/archit-dwivedi-7218b5162/'
+    linkedin: 'https://www.linkedin.com/in/xfurna/'
 };
 
