@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
 import './Projects.css';
 import { Link } from 'react-router-dom'
@@ -113,6 +113,10 @@ const RenderBetarteeb = (props) => {
 };
 
 const Projects = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
         document.title = "Projects"
         return (
         <>

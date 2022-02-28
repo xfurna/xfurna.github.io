@@ -3,6 +3,7 @@ import Nav from '../Nav/Nav';
 import './About.css'
 import Me from '../../Static/me2.jpg'
 import { contactme } from '../../Data'
+import { useEffect } from 'react';
 
 const Bio = () => {
     return (
@@ -72,6 +73,10 @@ const Contact = () => {
 };
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     document.title = "About"
     return (
         <>

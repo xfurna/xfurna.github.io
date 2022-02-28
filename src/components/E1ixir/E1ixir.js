@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
 import './E1ixir.css'
 
 const E1ixir = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     document.title = "e1ixir"
     return (
         <>

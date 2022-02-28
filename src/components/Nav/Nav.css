@@ -13,9 +13,10 @@
     flex-direction: row;
     overflow: hidden;
     border-radius: 2.5vmin;
-    border-color: #c163e6;
-    backdrop-filter: blur(100px);
-    box-shadow: 0 1.2vmin 3.1vmin #120111;
+    border-color: #120111;
+    /* backdrop-filter: blur(100px); */
+    background-color: #120111;
+    box-shadow: 0 1.5vmin 4vmin #120111;
 }
 
 .navbar .page{
