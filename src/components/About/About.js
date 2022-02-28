@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
+import Story from '../Story/Story';
 import './About.css'
 import Me from '../../Static/me2.jpg'
 import { contactme } from '../../Data'
-import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Bio = () => {
     return (
@@ -29,7 +30,6 @@ const Bio = () => {
 };
 
 const Contact = () => {
-    // const { gh, tg, em, tw } = contactme;
     return (
         <div className='contactme'>
             <div>
@@ -88,6 +88,8 @@ const About = () => {
                     <img src={Me} align='center' alt='me!' />
                     <div align='center' className="about-head" data-text="A subtle machinery of awe..." style={{ paddingTop: '0vmin' }}><hr /></div>
                     <Contact />
+                    <NavLink className="page" to="/xfurna.github.io/story">story</NavLink>                
+                    {/* <Story /> */}
                     <Bio />
 
                 </div>

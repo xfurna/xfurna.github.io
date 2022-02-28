@@ -21,6 +21,30 @@ hr{
   animation: flicker-schism 10s linear 0.5s infinite forwards;
 }
 
+.page{
+  font-family: 'Beth Ellen', cursive;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 7vmin;
+  padding-bottom: 10px;
+  color: #653a69;
+  text-shadow: 0 0px 2vmin #794672,
+  0 0px 2vmin #794672;
+  filter: brightness(1.5); 
+  letter-spacing: -1px;
+  font-size: 3vmin;
+  transition: all .5s ease-in-out;
+}
+
+.page:hover{
+color: #731db9;
+text-shadow: 0 0px 2vmin #8816aa,
+0 0 1vmin #8816aa,
+0 0 2vmin #8816aa;
+filter: brightness(7); 
+transition: 0.5s ease-in;
+}
+
 .about{
     display: flex;
     flex-direction: column;

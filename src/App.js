@@ -5,6 +5,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import E1ixir from './components/E1ixir/E1ixir'
 import Projects from './components/Projects/Projects'
+import Story from './components/Story/Story'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/xfurna.github.io/about" element={<About />} />
           <Route path="/xfurna.github.io/e1ixir" element={<E1ixir />} />
           <Route path="/xfurna.github.io/projects" element={<Projects />} />
+          <Route path="/xfurna.github.io/story" element={<Story />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
