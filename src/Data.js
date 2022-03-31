@@ -144,6 +144,23 @@ export const betarteeb = [
     },
     {
         id: 4,
+        main_head: (<><p>Occupy</p><p>~Mars~</p></>),
+        buttons: [
+            {
+                href: 'https://drive.google.com/file/d/1asWDBtay6jI3-n6Yh4PoVvny-JSAli-I/view',
+                content: 'Chapters',
+                svg: 'publication'
+            }
+        ],
+        head: "Occupy Mars",
+        description: (
+            <>
+                <p>An advocate of <span className='glow'>human use of outer space</span> and enabling human to settle on the <span className='glow'>red planet</span>. Written two <span className='glow'>chapters</span> proposing the testable hypotheses to subsume <span className='glow'>biotechnology</span> strategies for <span className='glow'>planetary colonisation</span> and <span className='glow'>space exploration</span> odyssey.</p>
+            </>
+        ),
+    },
+    {
+        id: 5,
         main_head: 'Bio1ixir',
         buttons: [
             {
@@ -164,6 +181,7 @@ export const betarteeb = [
         head: "bio1ixir[dot]github[dot]io",
         description: (
             <>
+                <p>The project has been <span className='glow'>archived</span></p>
                 <p><span className='glow'>Founded</span> & <span className='glow'>managed</span> Bio1ixir- an organisation to showcase biotech. culture of the institute.</p>
                 <p>Starting up from just an idea, crafted an <span className='glow'>organisational structure</span>, <span className='glow'>code of conduct</span> and <span className='glow'>designed UI/UX</span> for the website, providing it with a distinct denomination.</p>
                 <p>Created a <span className='glow'>custom Hugo theme</span> for the organisation’s landing page using exclusively <span className='glow'>vanillaJS</span>, <span className='glow'>HTML</span> & <span className='glow'>CSS</span>.</p>

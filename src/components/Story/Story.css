@@ -17,9 +17,9 @@ p {
 	height: 87vh;
 }
 
-.stories {
+/* .stories {
 	filter: drop-shadow(0 20px 30px rgb(48, 4, 48));
-}
+} */
 
 .left {
 	display: flex;
