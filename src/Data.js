@@ -1,10 +1,35 @@
 import React from 'react';
 
 
-export const presently = (<p><span className='glow'>SDE intern</span> at <span className='glow'>UnDosTres</span>, Mexico City</p>);
+export const presently = (<p><span className='glow'>Software Engineer</span> at <span className='glow'>UnDosTres</span> (Remote)</p>);
 export const projects = [
     {
-        id: 1,
+        id: 3,
+        head: (<><p>~ Un ~</p><p>Dos</p><p>Tres</p></>),
+        buttons: [
+            {
+                to: '/e1ixir',
+                svg: 'e1ixir'
+            }
+
+        ],
+        role: 'SOFTWARE ENGINEER',
+        affiliation: 'UnDosTres, June 2022 - Present',
+        description: (
+            <>
+            <p>Adding backend support leveraging <span className='glow'>ORM</span> techniques within a <span className='glow'>MVC design pattern</span>, focusing on creating scalable and maintainable architecture.</p>
+            <p>Involved in <span className='glow'>development of business logic</span> for the company's e-commerce resulting in ever-increasing revenue generation.</p>
+            <p>Implemented and integrated a <span className='glow'>new system of payment</span> that allows users to purchase curated products in <span className='glow'>monthly instalments</span>.</p>
+            <p>Created a <span className='glow'>framework</span> that enabled the marketing team to easily create priority-based layers of referral campaigns for selected user groups. Led to <span className='glow'>reduced manual tasks and increased productivity</span>.</p>
+            <p>Optimised the integration of multiple third-party card processors, including <span className='glow'>PayPal</span> and <span className='glow'>Stripe</span>, as well as <span className='glow'>bill payment APIs</span>.</p>
+            <p>Optimised measures to <span className='glow'>prevent fraud</span> in card payments.</p>
+
+            </>
+        )
+    },
+
+    {
+        id: 2,
         head: 'RISynG',
         buttons: [
             {
@@ -33,7 +58,7 @@ export const projects = [
     },
 
     {
-        id: 2,
+        id: 1,
         head: (<><p>Agro</p> <p>GWAS</p></>),
         role: 'UNDERGRADUATE STUDENT RESEARCHER',
         affiliation: 'IIT Jodhpur, May 20201 - November 2021',
