@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
 import './Projects.css';
 import { Link } from 'react-router-dom'
-import { projects, presently, betarteeb } from '../../Data'
+import { projects, presently, heathen } from '../../Data'
 
 const Buttons = (props) => {
     // const { href, to, content, svg } = props;
@@ -88,7 +88,7 @@ const RenderProject = (props) => {
     );
 };
 
-const RenderBetarteeb = (props) => {
+const RenderHeathen = (props) => {
     const direction = (props.id % 2 === 0) ? 'row-reverse' : 'row';
     return (
         <div className='project' style={{ flexDirection: direction }} >
@@ -103,7 +103,7 @@ const RenderBetarteeb = (props) => {
 
             </div>
             <div className='project-outline' align={(props.id % 2 === 0) ? 'right' : 'left'}>
-                <div className='betarteeb'>{props.head}</div>
+                <div className='heathen'>{props.head}</div>
                 <span className='tag' style={{ display: (props.tag) ? 'inline-block' : 'none' }}>{props.tag}</span>
                 <hr style={{ marginTop: (props.tag) ? '25px' : '5px' }} />
                 {props.description}
@@ -131,9 +131,9 @@ const Projects = () => {
                     <RenderProject key={i} {...project} />
                 ))}
 
-                <div align='center' className="heading" data-text='बे-तरतीब' style={{ fontFamily: 'Tillana' }}></div>
-                {betarteeb.map((project, i) => (
-                    <RenderBetarteeb key={i} {...project} />
+                <div align='center' className="heading" data-text='heathens'></div>
+                {heathen.map((project, i) => (
+                    <RenderHeathen key={i} {...project} />
                 ))}
                             <hr />
             <div className='glow' align='center' style={{ color: '#ffffffb5', fontSize: '24px', fontFamily: 'Beth Ellen' }}>xf</div>
