@@ -3,7 +3,6 @@ import Nav from '../Nav/Nav';
 import './About.css'
 import Me from '../../Static/me2.jpg'
 import { contactme } from '../../Data'
-import { NavLink } from 'react-router-dom';
 
 const Bio = () => {
     return (
