@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Nav from '../Nav/Nav';
 import './About.css'
-import Me from '../../Static/me2.jpg'
+import Me from '../../Static/images/me2.jpg'
 import { contactme } from '../../Data'
 
 const Bio = () => {
