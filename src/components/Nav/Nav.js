@@ -9,7 +9,7 @@ export const Nav = () => {
                 <NavLink className="page xf-page" to="/">xf</NavLink>
                 <NavLink className="page" to="/xf/projects">schism</NavLink>
                 <NavLink className="page" to="/xf/e1ixir">e1ixir</NavLink>
-                <NavLink className="page" to="/xf//about">about</NavLink>
+                <NavLink className="page" to="/xf/about">about</NavLink>
             </div>
         </div>
     );
