@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/xfurna.github.io/about" element={<About />} />
-          <Route path="/xfurna.github.io/e1ixir" element={<E1ixir />} />
-          <Route path="/xfurna.github.io/projects" element={<Projects />} />
+          <Route path="about" element={<About />} />
+          <Route path="e1ixir" element={<E1ixir />} />
+          <Route path="projects" element={<Projects />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
