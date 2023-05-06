@@ -17,7 +17,7 @@ const Bio = () => {
 
             <p>I am a firm believer and practitioner of the <a href='https://jamesclear.com/first-principles' rel='noopener noreferrer' target='_blank'>first principle of thinking</a>. I perceive the world in accordance with its function rather than its form. This mindset helps me to have a clear understanding of the things which, I believe, is a great step in the direction of the ideology of <a href='https://www.ted.com/talks/sal_khan_let_s_teach_for_mastery_not_test_scores?language=en' rel='noopener noreferrer' target='_blank'>learning for mastery</a>.</p>
 
-            <p>The rest is irrelevant, as is all the above</p>
+            <p>The rest is irrelevant, as is all the above.</p>
 
             <p>I'm usually a man of few words in person. Nonetheless, hang out with me for an hour or two, only to find yourself in the extreme depths of the philosophical discourse on the sheer existence of things!</p>
 
