@@ -7,9 +7,9 @@ export const Nav = () => {
         <div className="nav-container">
             <div className="navbar">
                 <NavLink className="page xf-page" to="/">xf</NavLink>
-                <NavLink className="page" to="/xf/projects">schism</NavLink>
-                <NavLink className="page" to="/xf/e1ixir">e1ixir</NavLink>
-                <NavLink className="page" to="/xf/about">about</NavLink>
+                <NavLink className="page" to="/projects">schism</NavLink>
+                <NavLink className="page" to="/e1ixir">e1ixir</NavLink>
+                <NavLink className="page" to="/about">about</NavLink>
             </div>
         </div>
     );
